@@ -15,35 +15,55 @@
         <h2>Dashboard</h2>
       </div>
 
-      <nav class="sidebar-nav">
-        <a href="#">Home</a>
-        <a href="#">Profile</a>
-        <a href="#">Messages</a>
-        <a href="#">History</a>
-        <a href="#">Tasks</a>
-        <a href="#">Communities</a>
-        <a href="#">Settings</a>
-        <a href="#">Support</a>
-        <a href="#">Privacy</a>
+      <!-- TOP NAV -->
+      <nav class="sidebar-nav main-nav">
+        <a href="#"><span class="nav-icon">🏠</span><span>Home</span></a>
+        <a href="#"><span class="nav-icon">👤</span><span>Profile</span></a>
+        <a href="#"><span class="nav-icon">✉️</span><span>Messages</span></a>
+        <a href="#"><span class="nav-icon">🕓</span><span>History</span></a>
+        <a href="#"><span class="nav-icon">📋</span><span>Tasks</span></a>
+        <a href="#"><span class="nav-icon">👥</span><span>Communities</span></a>
+      </nav>
+
+      <!-- BOTTOM NAV -->
+      <nav class="sidebar-nav utility-nav">
+        <a href="#"><span class="nav-icon">⚙️</span><span>Settings</span></a>
+        <a href="#"><span class="nav-icon">🛟</span><span>Support</span></a>
+        <a href="#"><span class="nav-icon">🔒</span><span>Privacy</span></a>
       </nav>
     </aside>
 
+
     <!-- HEADER -->
     <header class="header">
-      <div class="search">
+
+      <!-- ROW 1 -->
+      <div class="header-left top-left">
+        <span class="icon">🔍</span>
         <input type="text" placeholder="Search..." />
       </div>
 
-      <div class="user-info">
+      <div class="header-right top-right">
+        <span class="icon">🔔</span>
         <img src="https://placehold.co/40x40" alt="avatar">
-        <span>Morgan Oakley</span>
+        <span class="username">Morgan Oakley</span>
       </div>
 
-      <div class="header-buttons">
+      <!-- ROW 2 -->
+      <div class="header-left bottom-left">
+        <img src="https://placehold.co/60x60" alt="avatar">
+        <div>
+          <p class="greeting">Hi there,</p>
+          <h3>Morgan Oakley <span>(@morgan)</span></h3>
+        </div>
+      </div>
+
+      <div class="header-right bottom-right">
         <button>New</button>
         <button>Upload</button>
         <button>Share</button>
       </div>
+
     </header>
 
     <!-- MAIN CONTENT -->
@@ -58,9 +78,9 @@
                 <div class="card-content">
                     <h4>Super Cool Project</h4>
                     <p>
-                    Sed tempus ut lacus ut scelerisque. 
-                    Suspendisse sollicitudin nibh erat, 
-                    id facilisis felis accumsan nec.
+                      Sed tempus ut lacus ut scelerisque. 
+                      Suspendisse sollicitudin nibh erat, 
+                      id facilisis felis accumsan nec.
                     </p>
                 </div>
                 <div class="card-actions">
@@ -69,11 +89,82 @@
                     <span title="Share">🔗</span>
                 </div>
             </div>
-          <div class="card">Less Cool Project</div>
-          <div class="card">Impossible App</div>
-          <div class="card">Easy Peasy App</div>
-          <div class="card">Ad Blocker</div>
-          <div class="card">Money Maker</div>
+            <div class="card">
+                <div class="card-content">
+                    <h4>Less Cool Project</h4>
+                    <p>
+                    <p>
+                      Sed tempus ut lacus ut scelerisque. 
+                      Suspendisse sollicitudin nibh erat, 
+                      id facilisis felis accumsan nec.
+                    </p>
+                </div>
+                <div class="card-actions">
+                    <span title="Favorite">⭐</span>
+                    <span title="View">👁️</span>
+                    <span title="Share">🔗</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h4>Impossible App</h4>
+                    <p>
+                      Sed tempus ut lacus ut scelerisque. 
+                      Suspendisse sollicitudin nibh erat, 
+                      id facilisis felis accumsan nec.
+                    </p>
+                </div>
+                <div class="card-actions">
+                    <span title="Favorite">⭐</span>
+                    <span title="View">👁️</span>
+                    <span title="Share">🔗</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h4>Easy Peasy App</h4>
+                    <p>
+                      Sed tempus ut lacus ut scelerisque. 
+                      Suspendisse sollicitudin nibh erat, 
+                      id facilisis felis accumsan nec.
+                    </p>
+                </div>
+                <div class="card-actions">
+                    <span title="Favorite">⭐</span>
+                    <span title="View">👁️</span>
+                    <span title="Share">🔗</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h4>Ad Blocker</h4>
+                    <p>
+                      Sed tempus ut lacus ut scelerisque. 
+                      Suspendisse sollicitudin nibh erat, 
+                      id facilisis felis accumsan nec.
+                    </p>
+                </div>
+                <div class="card-actions">
+                    <span title="Favorite">⭐</span>
+                    <span title="View">👁️</span>
+                    <span title="Share">🔗</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h4>Money Maker</h4>
+                    <p>
+                      Sed tempus ut lacus ut scelerisque. 
+                      Suspendisse sollicitudin nibh erat, 
+                      id facilisis felis accumsan nec.
+                    </p>
+                </div>
+                <div class="card-actions">
+                    <span title="Favorite">⭐</span>
+                    <span title="View">👁️</span>
+                    <span title="Share">🔗</span>
+                </div>
+            </div>
         </div>
       </section>
 
@@ -82,26 +173,71 @@
 
         <div class="announcements">
           <h3>Announcements</h3>
-          <div class="announcement-card">
-            <p><strong>Site Maintenance</strong></p>
-            <p>Vestibulum condimentum...</p>
-            <hr>
-            <p><strong>Community Share Day</strong></p>
-            <p>Nam vel lectus...</p>
-            <hr>
-            <p><strong>Updated Privacy Policy</strong></p>
-            <p>Phasellus efficitur...</p>
-          </div>
+            <div class="announcement-card">
+              <div class="announcement-item">
+                <p class="announcement-title">Site Maintenance</p>
+                <p class="announcement-text">
+                  Sed tempus ut lacus ut scelerisque. 
+                  Suspendisse sollicitudin nibh erat, 
+                  id facilisis felis accumsan nec.
+                </p>
+              </div>
+              <hr>
+              <div class="announcement-item">
+                <p class="announcement-title">Community Share Day</p>
+                <p class="announcement-text">
+                  Sed tempus ut lacus ut scelerisque. 
+                  Suspendisse sollicitudin nibh erat, 
+                  id facilisis felis accumsan nec.
+                </p>
+              </div>
+              <hr>
+              <div class="announcement-item">
+                <p class="announcement-title">Updated Privacy Policy</p>
+                <p class="announcement-text">
+                  Sed tempus ut lacus ut scelerisque. 
+                  Suspendisse sollicitudin nibh erat, 
+                  id facilisis felis accumsan nec.
+                </p>
+              </div>
+            </div>
         </div>
 
         <div class="trending">
           <h3>Trending</h3>
-          <div class="trending-card">
-            <p>@tegan<br><small>World Peace Builder</small></p>
-            <p>@morgan<br><small>Super Cool Project</small></p>
-            <p>@kendall<br><small>Life Changing App</small></p>
-            <p>@alex<br><small>No Traffic Maker</small></p>
-          </div>
+            <div class="trending-card">
+              <div class="trending-item">
+                <img src="https://placehold.co/40x40" alt="@tegan avatar" class="trending-avatar">
+                <div class="trending-info">
+                  <p class="trending-username">@tegan</p>
+                  <p class="trending-desc">World Peace Builder</p>
+                </div>
+              </div>
+
+              <div class="trending-item">
+                <img src="https://placehold.co/40x40" alt="@morgan avatar" class="trending-avatar">
+                <div class="trending-info">
+                  <p class="trending-username">@morgan</p>
+                  <p class="trending-desc">Super Cool Project</p>
+                </div>
+              </div>
+
+              <div class="trending-item">
+                <img src="https://placehold.co/40x40" alt="@kendall avatar" class="trending-avatar">
+                <div class="trending-info">
+                  <p class="trending-username">@kendall</p>
+                  <p class="trending-desc">Life Changing App</p>
+                </div>
+              </div>
+
+              <div class="trending-item">
+                <img src="https://placehold.co/40x40" alt="@alex avatar" class="trending-avatar">
+                <div class="trending-info">
+                  <p class="trending-username">@alex</p>
+                  <p class="trending-desc">No Traffic Maker</p>
+                </div>
+              </div>
+            </div>
         </div>
 
       </section>
